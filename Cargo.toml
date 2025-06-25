@@ -1,0 +1,12 @@
+[package]
+name = "lbm_lesc"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.5.32", features = ["cargo"] }
+colored = "3.0.0"
+rayon = "1.10.0"
+
+[package.metadata.docs.rs]
+rustdoc-args = [ "--html-in-header", "katex-header.html" ]

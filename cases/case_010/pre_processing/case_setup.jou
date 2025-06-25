@@ -1,0 +1,11 @@
+case_name                        = Case 010
+
+tolerance_density                = 1e-7
+tolerance_velocity_x             = 1e-7
+tolerance_velocity_y             = 1e-7
+tolerance_velocity_z             = 1e-7
+
+min_iter                         = 1000
+max_iter                         = 100000
+
+write_data_mode                  = frequency 500

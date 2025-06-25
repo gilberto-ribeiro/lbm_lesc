@@ -1,0 +1,19 @@
+delta_x                          = 0.001
+delta_t                          = 0.001333333333
+tau                              = 0.9
+
+physical_density                 = 998
+reference_pressure               = 101325
+
+lx                               = 0.5
+ly                               = 0.1
+
+bounce_back_map                  = false
+
+initial_velocity                 = 0.0 0.0
+initial_density                  = 1.0
+
+west_boundary_condition          = periodic
+east_boundary_condition          = periodic
+south_boundary_condition         = no_slip
+north_boundary_condition         = dirichlet 1.0 0.01333333333333 0.0
