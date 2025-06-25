@@ -183,17 +183,3 @@ MIT
 ---
 
 > Para detalhes de implementação, consulte os arquivos-fonte em [src/](src).
-
-quero que descreva brevemente os casos tutoriais que estão dentro de ./cases. Os detalhes dos parametros de simulação, condições iniciais, de contorno estão em case_conditions.jou e detalhes da simulação estão em case_setup.jou, todos no diretório pre_processing de cada caso
-
-case_001: Escoamento de couette usando condições de contorno do tipo bounce-back
-case_002: Escoamento de couette usando condições de contorno do tipo Zou e He (1997)
-case_003: Escoamento de poiseuille usando condições de contorno do tipo Zou e He (1997)
-case_004: Escoamento de poiseuille usando condições de contorno do tipo bounce-back tendo a velocidade de entrada prescrita
-case_005: Escoamento de poiseuille usando condições de contorno do tipo Zou e He (1997) tendo a velocidade de entrada prescrita
-case_006: Escoamento de esteira de Von-karman usando condições de contorno do tipo Zou e He (1997)
-case_007: Escoamento de cavidade com tampa móvel (lid driven cavity) usando condições de contorno do tipo bounce-back
-case_008: Escoamento de cavidade com tampa móvel (lid driven cavity) usando condições de contorno do tipo Zou e He (1997)
-case_009: Escoamento de cavidade com tampa móvel (lid driven cavity) tridimensional usando condições de contorno do tipo bounce-back
-case_010: Escoamento em estrutura TPMS usando condições de contorno do tipo bounce-back (Não deslizamento nas faces laterais)
-case_011: Escoamento em estrutura TPMS usando condições de contorno do tipo bounce-back (Periodicidade nas faces laterais)
